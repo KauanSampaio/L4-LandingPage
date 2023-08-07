@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu-bar {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#btn-get-started, #btn-get-access {
+    background-color: #242C5D;
+    transition: 500ms;
+}
+
+#btn-get-started:hover, #btn-get-access:hover {
+    background-color: #18288d;
+}
+
+#btn-learn-more {
+    background-color: #E82517;
+    transition: 500ms;
+}
+
+#btn-learn-more:hover {
+    background-color: #F25547;
+}
+
+#link-destaque {
+    color: #242C5D;
+}
+
+#team-function, #text-included {
+    color: #18288d;
+}

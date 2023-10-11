@@ -16,21 +16,21 @@
     padding-bottom: 0rem;
 }
 
-#btn-get-started, #btn-get-access {
+#btn-get-started {
     background-color: #242C5D;
     transition: 500ms;
 }
 
-#btn-get-started:hover, #btn-get-access:hover {
+#btn-get-started:hover {
     background-color: #18288d;
 }
 
-#btn-learn-more {
+#btn-learn-more, #btn-get-access {
     background-color: #E82517;
     transition: 500ms;
 }
 
-#btn-learn-more:hover {
+#btn-learn-more:hover, #btn-get-access:hover {
     background-color: #F25547;
 }
 

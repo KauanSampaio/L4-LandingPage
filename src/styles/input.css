@@ -47,6 +47,15 @@
     padding-bottom: 3rem;
 }
 
+#link-card-profile {
+	color: #242C5D;
+}
+
+#link-card-profile:hover {
+	color: #18288d;
+	text-decoration: underline;
+}
+
 .container {
 	width: 100%;
 	height: 100%;

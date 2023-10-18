@@ -859,9 +859,19 @@ select {
   margin-bottom: -1.5rem;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-6 {
@@ -911,6 +921,14 @@ select {
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-6 {
@@ -973,6 +991,10 @@ select {
   height: 4rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -999,6 +1021,10 @@ select {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-5 {
@@ -1033,16 +1059,16 @@ select {
   max-width: 80rem;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
 
 .max-w-screen-xl {
   max-width: 1280px;
-}
-
-.max-w-xl {
-  max-width: 36rem;
 }
 
 .max-w-xs {
@@ -1155,10 +1181,6 @@ select {
 
 .gap-y-12 {
   row-gap: 3rem;
-}
-
-.gap-y-16 {
-  row-gap: 4rem;
 }
 
 .gap-y-20 {
@@ -1338,6 +1360,10 @@ select {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -1374,6 +1400,11 @@ select {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-2 {
@@ -1420,6 +1451,10 @@ select {
 
 .pt-14 {
   padding-top: 3.5rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .pt-6 {
@@ -1533,6 +1568,11 @@ select {
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -1665,6 +1705,15 @@ select {
 #courses-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+#link-card-profile {
+  color: #242C5D;
+}
+
+#link-card-profile:hover {
+  color: #18288d;
+  text-decoration: underline;
 }
 
 .container {
@@ -2023,6 +2072,16 @@ select {
     -o-object-position: center;
        object-position: center;
   }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2036,18 +2095,6 @@ select {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
-  }
-
-  .lg\:col-start-1 {
-    grid-column-start: 1;
-  }
-
-  .lg\:row-start-1 {
-    grid-row-start: 1;
-  }
-
-  .lg\:row-start-2 {
-    grid-row-start: 2;
   }
 
   .lg\:m-0 {
@@ -2106,10 +2153,6 @@ select {
     max-width: 80rem;
   }
 
-  .lg\:max-w-lg {
-    max-width: 32rem;
-  }
-
   .lg\:max-w-md {
     max-width: 28rem;
   }
@@ -2134,10 +2177,6 @@ select {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2148,10 +2187,6 @@ select {
 
   .lg\:flex-col {
     flex-direction: column;
-  }
-
-  .lg\:items-start {
-    align-items: flex-start;
   }
 
   .lg\:items-center {
@@ -2180,23 +2215,10 @@ select {
          column-gap: 3rem;
   }
 
-  .lg\:gap-x-8 {
-    -moz-column-gap: 2rem;
-         column-gap: 2rem;
-  }
-
-  .lg\:gap-y-10 {
-    row-gap: 2.5rem;
-  }
-
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .lg\:overflow-visible {
-    overflow: visible;
   }
 
   .lg\:border-t-0 {
@@ -2243,10 +2265,6 @@ select {
 
   .lg\:pl-8 {
     padding-left: 2rem;
-  }
-
-  .lg\:pr-4 {
-    padding-right: 1rem;
   }
 
   .lg\:pt-12 {
